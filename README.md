@@ -1,19 +1,29 @@
-# 🎈 Blank app template
 
-A simple Streamlit app template for you to modify!
+# Wealth AI Manager V2
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+เวอร์ชันต่อยอดจาก MVP โดยเพิ่ม:
+- Dashboard ภาพรวมพอร์ต
+- ตารางสินทรัพย์
+- บันทึกกระแสเงินสด + กราฟสรุปต่อเดือน
+- Goal Planning
+- AI Assistant สรุปภาพรวม + ช่วยจัดเงินก้อน
 
-### How to run it on your own machine
+## วิธีรัน
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-1. Install the requirements
+## ฟีเจอร์เด่น
+1. รวมพอร์ตทุกหมวดในจุดเดียว
+2. ดูกำไร/ขาดทุนคงค้าง
+3. วางเป้าหมายเช่น รายได้ปันผล 40,000/เดือน
+4. มีตัวช่วยแบ่งเงินก้อนตามสไตล์พอร์ต
+5. อ่านภาพรวมแบบภาษาคน
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## ต่อจากนี้ควรทำ
+- เชื่อมราคาจริงจาก Yahoo Finance
+- เชื่อมราคาทอง
+- ทำหน้า Dividend Calendar
+- ทำ Telegram / LINE แจ้งเตือน
+- ทำหน้า What-if analysis
